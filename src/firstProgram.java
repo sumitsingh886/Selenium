@@ -21,6 +21,7 @@ public class firstProgram {
         WebElement message = driver.findElement(By.id("message"));
         message.getText();
         System.out.println(message.getText());
+
         driver.quit();
     }
 }
