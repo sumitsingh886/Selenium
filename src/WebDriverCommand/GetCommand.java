@@ -9,6 +9,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class GetCommand {
     public static void main(String[] args) {
         WebDriver driver  = new FirefoxDriver();
+
+        // Get Commands
+
         driver.get("https://www.selenium.dev/selenium/web/web-form.html"); // Open the URL on the browser
 
         System.out.println( driver.getTitle()); // Return the title of the page
