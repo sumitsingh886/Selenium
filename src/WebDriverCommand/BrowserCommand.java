@@ -12,6 +12,6 @@ public class BrowserCommand {
         driver.close(); // Only close the current window
         System.exit(0); // End the WebDriver session
 //        Use the close and exit together
-//        driver.quit(); // Close the multiple blowser tabs and end the WebDriver session.
+//        driver.quit(); // Close the multiple browser tabs and end the WebDriver session.
     }
 }
