@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Web Scraping/Selenium/src/test/java/TestNG/AnnotationsAttributes_Group.java">
+        <groups>
+            <run>
+                <include name="Software Company"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNG.Annotation_Attributes.AnnotationsAttributes_Group"/>
+        </classes>
+    </test>
+</suite>

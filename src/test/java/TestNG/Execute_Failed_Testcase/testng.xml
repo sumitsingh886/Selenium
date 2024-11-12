@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="TestNG.Execute_Failed_Testcase.RetryListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Web Scraping/Selenium/src/test/java/TestNG/Execute_Failed_Testcase/TestCaseExample.java">
+        <classes>
+            <class name="TestNG.Execute_Failed_Testcase.TestCaseExample">
+                <methods>
+                    <include name="TestCase01"/>
+                    <include name="TestCase02"/>
+                    <include name="TestCase03"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

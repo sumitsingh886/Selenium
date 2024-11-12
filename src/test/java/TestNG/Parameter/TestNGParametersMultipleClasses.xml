@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="AutomobileName">
+        <parameter name="AutomobileName" value="Maruti"/>
+        <classes>
+            <class name="TestNG.Parameter.TestNGParameters1"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="SoftwareCompanyName">
+        <parameter name="SoftwareCompanyName" value="Innova Solutions"/>
+        <classes>
+            <class name="TestNG.Parameter.TestNGParameters2"/>
+        </classes>
+    </test>
+</suite>

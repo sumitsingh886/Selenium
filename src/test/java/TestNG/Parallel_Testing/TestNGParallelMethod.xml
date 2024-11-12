@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="2">
+    <test verbose="2" preserve-order="true" name="C:/Web Scraping/Selenium/src/test/java/TestNG/TestNGParallel1.java">
+        <classes>
+            <class name="TestNG.Parallel_Testing.TestNGParallel1">
+                <methods>
+                    <include name="verifyTitle"/>
+                    <include name="verifyLogo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

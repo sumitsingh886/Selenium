@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <test name="MS Edge">
+        <parameter name="browser" value="msedge"/>
+        <classes>
+            <class name="TestNG.CrossBrowserTesting.CrossBrowserDemo"/>
+        </classes>
+    </test>
+    <test name="Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="TestNG.CrossBrowserTesting.CrossBrowserDemo"/>
+        </classes>
+    </test>
+</suite>
